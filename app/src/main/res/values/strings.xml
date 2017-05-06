@@ -4,4 +4,10 @@
     <string name="CALCULADORA" />
     <string name="Calcular">Calcular</string>
     <string name="Borrar">Borrar</string>
+    <string name="NUMERO1">NUMERO 1</string>
+    <string name="NUMERO2">NUMERO 2</string>
+    <string name="error_numero1">Digite el número</string>
+    <string name="error_numero2">Digite el número</string>
+    <string name="NUMERO2_">NUMERO 2</string>
+
 </resources>

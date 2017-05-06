@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Holamundo</string>
+    <string name="Borrar">Clear</string>
+    <string name="Calcular">calculate</string>
+    <string name="calculadora">CALCULATOR</string>
+    <string name="NUMERO1">NUMBER 1</string>
+    <string name="NUMERO2">NUMBER 2</string>
+    <string name="error_numero1">Enter the number</string>
+    <string name="error_numero2">Enter the number</string>
+</resources>
