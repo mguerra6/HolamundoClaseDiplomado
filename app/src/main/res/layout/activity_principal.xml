@@ -10,4 +10,69 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.android.holamundo.Principal">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <TextView
+            android:text="@string/calculadora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:paddingBottom="10dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/txtnumero1"
+            android:hint="NUMERO 1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/txtnumero3"
+            android:hint="NUMERO 2"
+            android:paddingBottom="30dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="@string/Calcular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cmdcalcular"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="@string/Borrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cmdborrar"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtresultado"
+            android:layout_weight="0.33"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textSize="14sp" />
+
+    </LinearLayout>
 </RelativeLayout>

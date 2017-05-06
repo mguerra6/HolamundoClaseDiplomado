@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Holamundo</string>
+    <string name="calculadora">CALCULADORA</string>
+    <string name="CALCULADORA" />
+    <string name="Calcular">Calcular</string>
+    <string name="Borrar">Borrar</string>
 </resources>
