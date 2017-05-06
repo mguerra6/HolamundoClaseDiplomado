@@ -8,6 +8,19 @@
     <string name="NUMERO2">NUMERO 2</string>
     <string name="error_numero1">Digite el número</string>
     <string name="error_numero2">Digite el número</string>
+    <string name="error_division">El denominador no puede ser "cero"</string>
     <string name="NUMERO2_">NUMERO 2</string>
+
+    <string name="suma">Suma</string>
+    <string name="resta">Resta</string>
+    <string name="multiplicacion">Multiplicacion</string>
+    <string name="division">Division</string>
+
+    <string-array name="opciones">
+        <item>@string/suma</item>
+        <item>@string/resta</item>
+        <item>@string/multiplicacion</item>
+        <item>@string/division</item>
+    </string-array>
 
 </resources>

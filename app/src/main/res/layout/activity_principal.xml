@@ -32,19 +32,25 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="numberDecimal"
+            android:inputType="numberSigned|numberDecimal"
             android:ems="10"
             android:id="@+id/txtnumero1"
-            android:hint="@string/NUMERO1" />
+            android:hint="@string/NUMERO1"
+            android:singleLine="false" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="numberDecimal"
+            android:inputType="numberSigned|numberDecimal"
             android:ems="10"
             android:id="@+id/txtnumero2"
-            android:paddingBottom="30dp"
             android:hint="@string/NUMERO2_" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cmdoperaciones"
+            android:layout_weight="0.08" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -66,6 +72,7 @@
                 android:id="@+id/cmdborrar"
                 android:layout_weight="1"
                 android:onClick="Borrar" />
+
         </LinearLayout>
 
         <TextView

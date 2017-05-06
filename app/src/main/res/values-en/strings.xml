@@ -8,4 +8,11 @@
     <string name="NUMERO2">NUMBER 2</string>
     <string name="error_numero1">Enter the number</string>
     <string name="error_numero2">Enter the number</string>
+    <string name="suma">Add</string>
+    <string name="resta">Subtract</string>
+    <string name="multiplicacion">multiplication</string>
+    <string name="division">division</string>
+    <string name="NUMERO2_">NUMBER 2</string>
+    <string name="error_divisio">The denominator can not be \"zero\"</string>
+    <string name="error_division">The denominator can not be \"zero</string>
 </resources>
